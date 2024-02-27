@@ -25,11 +25,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["fileToUpload"])) {
 }
 ?>
 
-<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" enctype="multipart/form-data">
-    Select TXT file to upload:
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="submit" value="Upload File" name="submit">
-</form>
+<div>
+  <form action="UPDATE.php" method="post">
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+    <button type="submit" class="w3-button w3-light-grey w3-padding-large">
+      <i class="fa fa-paper-plane"></i> SEND MESSAGE
+    </button>
+  </form>
+</div>
 
 </body>
 </html>
