@@ -230,7 +230,7 @@
         <p><i class="fa brands fa-instagram fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Instagram:
           <a href="https://www.instagram.com/jimuel_42gal?igsh=anc1ZXEwcmdrd2Vm" target="_blank">taji_sparrow</a>
         </p></div><br>
-        <p><a href="UPLOAD.php">Let's get in touch. Send me a message:</a></p>
+        <p><a href="UPDATE.php">Let's get in touch. Send me a message:</a></p>
 
         <!-- <div>
         <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
